@@ -1,0 +1,810 @@
+ @media (min-width:0px) and (max-width:200px){
+    body{
+background-color: rgb(202, 96, 255);
+    }
+ }
+@media (min-width:200px) and (max-width:600px){
+    body{
+background-color: rgb(37, 149, 255);
+    }
+ }
+  @media (min-width:600px) and (max-width:800px){
+    body{
+background-color: rgb(255, 104, 180);
+    }
+ }
+  @media (min-width:800px) and (max-width:1200px){
+    body{
+background-color: rgb(255, 128, 37);
+    }
+ }
+header{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0%;
+    background-color: rgb(235, 248, 253);
+    margin-bottom: 1rem;
+
+}
+main{
+    display: flex;
+    /* flex:0 0 100vw; */
+     animation: scroll 10s linear infinite; 
+    overflow: hidden;
+     width: 476vw;
+}
+ 
+
+@keyframes scroll{
+0%{
+        transform: translate(0%);
+    }
+    100%{
+         transform: translate(-50%);
+    }
+}
+.hamper{
+    height:50px;
+}
+.one{
+    display: flex;
+justify-content: space-between;
+
+}
+.ham{
+height: 2rem;
+padding-top: 6px;
+}
+h3{
+    padding-left: 2rem;
+    color: rgb(113, 113, 114);
+    font-weight: lighter;
+}
+.two{
+    margin-top: 1.3rem;
+   padding-left: 3rem;
+   font-size: x-large;
+}
+.img1{
+    width: 70rem;
+    height: 30rem;
+   justify-content: center;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-image: url(desk-484.webp);
+background-size: cover;
+margin-left: 1rem;
+}
+#imgall{
+display: flex;
+flex: 0 0 100vw;
+
+}
+
+.btn1{
+    background-color: rgb(58, 58, 255);
+   padding-bottom: 0.8rem;
+   padding-top: 0.8rem;
+   width: 15rem;
+    color: white;
+    border-radius: 2rem;
+     border: none;
+}
+.btn1:active{
+    background-color: rgb(21, 129, 254);
+    color: black;
+}
+.a{
+padding-left: 5rem;
+}
+.img2{
+background-image: url(img3.webp);
+width: 70rem;
+    height: 30rem;
+  padding-left: 5rem;
+   justify-content: center;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.btn2{
+    background-color: rgb(58, 58, 255);
+   padding-bottom: 0.8rem;
+   padding-top: 0.8rem;
+   width: 10rem;
+    color: white;
+    border-radius: 2rem;
+     border: none;
+}
+.btn2:active{
+    background-color: rgb(21, 129, 254);
+    color: black;
+}
+.img3{
+     background-image: url(2img.webp);
+    width: 70rem;
+    height: 30rem;
+   justify-content: center;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+  background-size: cover;  
+  margin-left: 1rem; 
+}
+.btn3{
+       background-color: rgb(58, 58, 255);
+   padding-bottom: 0.8rem;
+   padding-top: 0.8rem;
+   width: 8rem;
+    color: white;
+    border-radius: 2rem;
+    border: none;
+}
+.btn3:active{
+    background-color: rgb(21, 129, 254);
+    color: black;
+}
+
+.b{
+    font-size: 3rem;
+    text-align: center;
+}
+.btnn{
+display: flex;
+justify-content: center;
+}
+.btn4{
+background-color: rgb(58, 58, 255);
+   padding-bottom: 0.8rem;
+   padding-top: 0.8rem;
+   width: 8rem;
+    color: white;
+    border-radius: 2rem;
+    border: none;
+     margin-right: 2rem;
+}
+.btn4:active{
+    background-color: rgb(21, 129, 254);
+    color: black;
+}
+.btn5{
+    background-color: rgb(221, 221, 222);
+   padding-bottom: 0.8rem;
+   padding-top: 0.8rem;
+   width: 8rem;
+    color: rgb(1, 39, 255);
+    border-radius: 2rem;
+    border: none;
+     margin-left: -4rem;
+}
+.btn5:active{
+    background-color: rgb(21, 129, 254);
+    color: rgb(241, 241, 241);
+}
+.hu{
+    border-radius: 1rem;
+    padding: 0.7rem;
+    width: 15rem;
+    margin-right: 1rem;
+}
+.btn6{
+    background-color: rgb(58, 58, 255);
+   padding-bottom: 0.8rem;
+   padding-top: 0.8rem;
+   width: 8rem;
+    color: white;
+    border-radius: 2rem;
+    border: none;
+   
+}
+.btn6:active{
+    background-color: rgb(21, 129, 254);
+    color: black;
+}
+.thre{
+   display: flex;
+justify-content: center; 
+padding-top: 1rem;
+}
+.ion1{
+    background-color: rgb(189, 235, 253);
+    width: 1.3rem;
+    padding: 0.8rem;
+    border-radius: 50%;
+
+}
+.ion2{
+  background-color: rgb(189, 235, 253);
+    width: 1.3rem;
+    padding: 0.8rem;
+    border-radius: 50%;  
+
+}
+.ion3{
+  background-color: rgb(189, 235, 253);
+    width: 1.3rem;
+    padding: 0.8rem;
+    border-radius: 50%;  
+
+}
+.ion4{
+  background-color: rgb(189, 235, 253);
+    width: 1.3rem;
+    padding: 0.8rem;
+    border-radius: 50%;  
+
+}
+.ion5{
+  background-color: rgb(189, 235, 253);
+    width: 1.3rem;
+    padding: 0.8rem;
+    border-radius: 50%; 
+
+}
+#the{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+.i5{
+display: flex;
+flex-direction: column;
+   margin-right: 2rem;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 1rem;
+padding-right: 2rem;
+padding-left: 2rem;
+}
+.i6{
+display: flex;
+flex-direction: column;
+margin-right: 2rem;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 1rem;
+padding-right: 2rem;
+padding-left: 2rem;
+}
+.i7{
+display: flex;
+flex-direction: column;
+margin-right: 2rem;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 1rem;
+padding-right: 2rem;
+padding-left: 2rem;
+}
+.i8{
+display: flex;
+flex-direction: column;
+margin-right: 2rem;
+align-items: center;
+justify-content: center;
+text-align: left;
+padding: 1rem;
+padding-right: 2rem;
+padding-left: 2rem;
+}
+.i9{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 1rem;
+padding-right: 2rem;
+padding-left: 2rem;
+}
+.i5:hover{
+background-color: rgb(189, 235, 253);
+border-radius: 2rem;
+transition-delay: 0.1s;
+
+}
+.i6:hover{
+background-color: rgb(189, 235, 253);
+border-radius: 2rem;
+transition-delay: 0.1s;
+}
+
+.i7:hover{
+background-color: rgb(189, 235, 253);
+border-radius: 2rem;
+transition-delay: 0.1s;
+}
+
+.i8:hover{
+background-color: rgb(189, 235, 253);
+border-radius: 2rem;
+transition-delay: 0.1s;
+}
+
+.i9:hover{
+background-color: rgb(189, 235, 253);
+border-radius: 2rem;
+transition-delay: 0.1s;
+}
+.he{
+    text-align: center;
+    font-size: 1.3rem;
+}
+#first{
+    background-image: url(img8.png);
+    color: white;
+    width: 500px;
+    height: 600px;
+    background-size: cover;
+    margin-left: 10rem;
+border-radius: 2rem;
+padding-left: 5rem;
+padding-top: 5rem;
+}
+.coco{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn7{
+background-color: rgb(58, 58, 255);
+   padding-bottom: 0.8rem;
+   padding-top: 0.8rem;
+   width: 8rem;
+    color: white;
+    border-radius: 2rem;
+    border: none;
+}
+.btn7:hover{
+    background-color: rgb(21, 129, 254);
+    color: black;
+}
+#second{
+    background-image: url(m_home.webp);
+    color: white;
+    width: 500px;
+    height: 600px;
+    background-size: cover;
+    margin-left: 1rem;
+border-radius: 2rem;
+padding-left: 5rem;
+padding-top: 5rem;
+}
+.btn8{
+background-color: rgb(58, 58, 255);
+   padding-bottom: 0.8rem;
+   padding-top: 0.8rem;
+   width: 8rem;
+    color: white;
+    border-radius: 2rem;
+    border: none;
+}
+.btn8:hover{
+    background-color: rgb(21, 129, 254);
+    color: black;
+}
+.pic{
+    display: flex;
+}
+#di{
+    text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    margin-top: 7rem;
+    
+}
+#third{
+    background-image: url(l_cloud.webp);
+color: white;
+    width: 500px;
+    height: 600px;
+    background-size: cover;
+ margin-left: 9rem;
+    width: 70rem;
+    height: 30rem;
+border-radius: 2rem;
+padding-left: 5rem;
+padding-top: 5rem;
+}
+
+.coc{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn9{
+background-color: rgb(58, 58, 255);
+   padding-bottom: 0.8rem;
+   padding-top: 0.8rem;
+   width: 8rem;
+    color: white;
+    border-radius: 2rem;
+    border: none;
+}
+.btn9:hover{
+    background-color: rgb(21, 129, 254);
+    color: black;
+}
+.fourth{
+    background-image: url(card1.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 600px;
+    margin-left: 9rem;
+    padding-left: 5rem;
+    border-radius: 2rem;
+    padding-top: 5rem;
+       color: white;
+       margin-top: 3rem;
+}
+.btn12{
+    background-color:rgb(50, 175, 141);
+   padding-bottom: 0.8rem;
+   padding-top: 0.8rem;
+   width: 8rem;
+    color: rgb(1, 58, 1);
+    border-radius: 2rem;
+    border: none;
+     font-size: large;
+}
+.btn12:hover{
+    background-color:rgb(5, 123, 5);
+      color: rgb(173, 238, 206);
+}
+.btn11{
+    background-color:transparent;
+   padding-bottom: 0.8rem;
+   padding-top: 0.8rem;
+   width: 8rem;
+    color: rgb(1, 58, 1);
+    border-radius: 2rem;
+    border: none;
+     font-size: large;
+     border: white solid;
+}
+.btn11:hover{
+      background-color:white;
+      color: black;
+}
+.btn10{
+    background-color:rgb(178, 23, 23);
+   padding-bottom: 0.8rem;
+   padding-top: 0.8rem;
+   width: 8rem;
+    color: rgb(1, 58, 1);
+    border-radius: 2rem;
+    border: none;
+     font-size: large;
+     border: none;
+}
+.btn10:hover{
+      background-color:rgb(237, 135, 135);
+      color: black;
+}
+.btn13{
+    background-color:transparent;
+   padding-bottom: 0.8rem;
+   padding-top: 0.8rem;
+   width: 8rem;
+    color: rgb(1, 58, 1);
+    border-radius: 2rem;
+    border: none;
+     font-size: large;
+     border: white solid;
+}
+.btn13:hover{
+      background-color:white;
+      color: black;
+}
+
+.fifth{
+    background-image: url(m_mart.webp);
+    background-size: cover;
+    width: 500px;
+    height: 600px;
+    margin-left: 2rem;
+    padding-left: 5rem;
+    border-radius: 2rem;
+    padding-top: 5rem;
+       color: white;
+       margin-top: 3rem;
+}
+#pics{
+    display: flex;
+}
+#omr{
+    background-image: url(l_finance.webp);
+    color: white; 
+    background-size: cover;
+ margin-left: 9rem;
+    width: 70rem;
+    height: 25rem;
+border-radius: 2rem;
+padding-left: 5rem;
+padding-top: 5rem;
+margin-top: 2rem;
+}
+.btn14{
+    background-color:rgb(255, 217, 0);
+   padding-bottom: 0.8rem;
+   padding-top: 0.8rem;
+   width: 8rem;
+    color: rgb(44, 44, 43);
+    border-radius: 2rem;
+    border: none;
+     font-size: large;
+     border: none;
+}
+.btn14:hover{
+      background-color:rgb(245, 238, 155);
+      color: black;
+}
+.btn15{
+    background-color:transparent;
+   padding-bottom: 0.8rem;
+   padding-top: 0.8rem;
+   width: 8rem;
+    color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    border: none;
+     font-size: large;
+     border: white solid;
+}
+.btn15:hover{
+      background-color:white;
+      color: black;
+}
+.mug{
+    font-size: larger;
+}
+.btn16{
+    background-color: rgb(58, 58, 255);
+   padding-bottom: 0.8rem;
+   padding-top: 0.8rem;
+   width: 10rem;
+    color: white;
+    border-radius: 2rem;
+     border: none;
+}
+.btn16:hover{
+    background-color: rgb(21, 129, 254);
+    color: black;
+}
+.bucket{
+    text-align: center;
+    padding-top: 5rem;
+}
+.in{
+    border: 1px rgb(148, 148, 148) solid;
+    height: 300px;
+    width: 350px;
+    padding: 1rem;
+    font-size: large;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    text-align: center;
+    overflow-x: scroll;
+
+}
+a{
+    text-decoration: none;
+}
+section{
+    display: flex;
+    overflow-x: scroll;
+    padding-top: 3rem;
+    /* width: 150vw; */
+}
+.in:hover{
+    height: 330px;
+    width: 390px;
+    box-shadow:inset 2px 2px 20px 20px rgb(208, 232, 251);
+    z-index: 30;
+    margin-top: 1rem;
+
+}
+hr{
+    width: 1rem;
+    background: linear-gradient(to bottom, rgb(181, 218, 251), rgb(112, 191, 255), rgb(68, 196, 255), rgb(0, 132, 255)) ;
+    border-radius: 1rem;
+}
+#sofiya{
+    display: flex;
+    width: 150vw;
+    /* overflow-x: scroll; */
+height: 28rem;
+    overflow: scroll;
+
+
+}
+/* section{
+    width: 100vw;
+    overflow: scroll;
+
+} */
+.ann{
+   font-size: 3rem; 
+}
+.anuu{
+   font-size: 2rem;
+   
+}
+.btn17{
+     background-color: rgb(43, 43, 252);
+   padding-bottom: 0.8rem;
+   padding-top: 0.8rem;
+   width: 10rem;
+    color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    border: none;
+    font-size: 1rem;
+}
+.btn17:hover{
+    background-color: rgb(21, 129, 254);
+    color: black;
+}
+.anu{
+     background-image: url(tiddi.webp);
+ color: white;
+    width: 1150px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10rem;
+border-radius: 2rem;
+padding-left: 5rem;
+padding-top: 5rem;
+margin-top: 3rem;
+margin-left: 5rem;
+}
+.sofy{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sof{
+    color: rgb(151, 151, 151);
+    font-weight: 100;
+}
+#har{
+    text-align: center;
+}
+.sec{
+font-size: x-large;
+}
+#cards{
+    margin-top: 5rem;
+    display: flex;
+    overflow: scroll;
+
+}
+.card1{
+    height: 300px;
+    width: 400px;
+    border-radius: 2rem;
+    background-size: cover;
+}
+#car1{
+    width: 410px;
+    margin-left: 5rem;
+    height: 500px;
+    background-color: rgb(235, 235, 235);
+    padding: 1rem;
+    border-radius: 2rem;
+
+}
+
+
+.dog1{
+    background-color: rgb(0, 71, 89);
+    color: white;
+    width: 120px;
+    text-align: center;
+    border-radius: 0.5rem;
+    /* margin-top: 1rem; */
+
+}
+.hrr{
+    font-size: larger;
+}
+#harshita{
+    background-color: rgb(44, 113, 250);
+    height: 300px;
+    text-align: center;
+    margin-top: 3rem;
+padding: 2rem;
+}
+.btn18{
+    padding: 0.8rem;
+    border-radius: 2rem;
+    width: 8rem;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    font-size: large;
+}
+.btn18:hover{
+    background-color: rgb(254, 254, 254);
+    color: rgb(61, 100, 255);
+}
+.en{
+    font-size: 4rem;
+    color: white;
+    font-weight: bolder;
+}
+.enn{
+     font-weight: bolder;
+     color: white;
+}
+.btn19{
+    padding: 0.8rem;
+    border-radius: 2rem;
+    width: 10rem;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    font-size: large;
+}
+.btn19:hover{
+    background-color: rgb(254, 254, 254);
+    color: rgb(61, 100, 255);
+}
+.btn20{
+    padding: 0.8rem;
+    border-radius: 2rem;
+    width: 8em;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    font-size: large;
+}
+.btn20:hover{
+    background-color: rgb(254, 254, 254);
+    color: rgb(61, 100, 255);
+}
+.btn21{
+    padding: 0.8rem;
+    border-radius: 2rem;
+    width: 10em;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    font-size: large;
+    margin: 0%;
+}
+.btn21:hover{
+    background-color: rgb(254, 254, 254);
+    color: rgb(61, 100, 255);
+}
+.fott1{
+font-weight: bolder;
+font-size: x-large;
+color: black;
+}
+.saroj{
+    width: 3rem;
+    height: 3rem;
+}
+.sarojj{
+    width: 4rem;
+    height: 3rem;
+}
+.sarojjj{
+    width: 4rem;
+    height: 2.7rem;
+}
+.fot6{
+    display: flex;
+}
+footer{
+   display: flex; 
+}
+.fot1{
+     padding-right: 5rem;
+}
+.anushka{
+    height: 10rem;
+    width: 20rem;
+}
